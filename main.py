@@ -8,7 +8,7 @@ import time
 if __name__ == '__main__':
     # 初始化
     triangle_number = 200#三角形数目
-    size = (341, 351)#图片大小
+    size = (341, 351)#图片大小,与figure一致
     population = 4#种群数量
     target = np.array(misc.imread(r"figure.png",
                                   mode="RGB"),
@@ -61,11 +61,11 @@ if __name__ == '__main__':
             populations.append(tools.Variation(tools.Hybridization(father[d][1],
                                                                    mother[d][1]),
                                                triangle_number,
-                                               'medium', 95,size))  # 百分之x几率变异
+                                               'medium', 60,size))  # 百分之x几率变异
             populations.append(tools.Variation(tools.Hybridization(father[d][1],
                                                                    mother[d][1]),
                                                triangle_number,
-                                               'medium', 95,size))  # 百分之x几率变异
+                                               'medium', 60,size))  # 百分之x几率变异
         # 每20轮备份一次
         if a % 20 == 0:
             print("已备份。")
