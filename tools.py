@@ -1,6 +1,7 @@
 import function
-import numpy as np
-def Reproduction(name,after,size,polygon_number):
+
+#将一个个体变成指定大小的种群
+def Reproduction(name,after,size,polygon_number):#name指向的应该是一个个体染色体的npy数据
     origin = function.Operate(None, 'read', name)
     new = []
     for i in range(after):
@@ -8,5 +9,6 @@ def Reproduction(name,after,size,polygon_number):
     function.Operate(new, 'write', 'reproduction.npy')
 
 if __name__ == '__main__':
-    Reproduction('best.npy',30,(341, 351),4)
+    pass
+    #Reproduction('best.npy',30,(341, 351),4)
     
