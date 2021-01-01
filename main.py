@@ -7,7 +7,7 @@ import multiprocessing
 import time
 if __name__ == '__main__':
     # 初始化
-    triangle_number = 200#三角形数目
+    polygon_number = 200#多边形数目
     size = (341, 351)#图片大小,与figure一致
     population = 4#种群数量
     Variation_posibility = 60
@@ -23,7 +23,7 @@ if __name__ == '__main__':
         populations = tools.Operate(None, 'read')
     elif mode1 == 0:
         for i in range(population):
-            populations.append(tools.Generate_chromosome(triangle_number,size))
+            populations.append(tools.Generate_chromosome(polygon_number, size))
     else:
         raise Exception
     #主循环
@@ -62,13 +62,11 @@ if __name__ == '__main__':
         populations = []
         for d in range(int(population / 2)):
             populations.append(tools.Variation(tools.Hybridization(father[d][1],
-                                                                   mother[d][1]),
-                                               triangle_number,
-                                               'soft', Variation_posibility ,size))  # 百分之x几率变异
+                                                                   mother[d][1]), polygon_number, 'soft',
+                                               Variation_posibility, size))  # 百分之x几率变异
             populations.append(tools.Variation(tools.Hybridization(father[d][1],
-                                                                   mother[d][1]),
-                                               triangle_number,
-                                               'medium', Variation_posibility ,size))  # 百分之x几率变异
+                                                                   mother[d][1]), polygon_number, 'medium',
+                                               Variation_posibility, size))  # 百分之x几率变异
         # 每20轮备份一次
         if a % 20 == 0:
             print("已备份。")

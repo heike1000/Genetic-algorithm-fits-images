@@ -1,7 +1,7 @@
 # Genetic-algorithm-fits-images
 Use genetic algorithm to fit images.
 推荐初始参数：
-triangle_number = 200#三角形数目
+triangle_number = 200#多边形数目
 population = 4#种群数量
 Variation_posibility=60#变异几率
 

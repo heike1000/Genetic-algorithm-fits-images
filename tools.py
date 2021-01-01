@@ -5,13 +5,13 @@ import warnings
 import copy
 
 warnings.filterwarnings('ignore')
-triangle_number = 100
+polygon_number = 100
 
 #生成染色体
-def Generate_chromosome(triangle_number,size):
+def Generate_chromosome(plygon_number,size):
     #R G B ALPHA X0 Y0 X1 Y1 X2 Y2 X3 Y3 (当前使用四边形)
     chromosome = []
-    for a in range(triangle_number):
+    for a in range(plygon_number):
         DNA = []
         for b in range(4):
             DNA.append(random.randint(0,255))
@@ -40,7 +40,7 @@ def Generate_image(chromosome,name,size):
     img.save(r'image/%s.png'%name)
     img.close()
 #变异
-def Variation(chromosome,triangle_number,degree,chance,size):
+def Variation(chromosome,polygon_number,degree,chance,size):
     if random.randint(0,100)<=chance:
         if degree == "hard":
             DNA = []
@@ -50,37 +50,37 @@ def Variation(chromosome,triangle_number,degree,chance,size):
                 DNA.append(random.randint(0, size[0]))
                 DNA.append(random.randint(0, size[1]))
             new = copy.deepcopy(chromosome)
-            new[random.randint(0, triangle_number-1)] = DNA
+            new[random.randint(0, polygon_number - 1)] = DNA
         elif degree == 'medium':
             new = copy.deepcopy(chromosome)
             pick = random.randint(0, 11)
             if pick == 0 or pick == 1 or pick == 2 or pick == 3:
-                new[random.randint(0, triangle_number - 1)][pick] = random.randint(0, 255)
+                new[random.randint(0, polygon_number - 1)][pick] = random.randint(0, 255)
             elif pick == 4 or pick == 6 or pick == 8 or pick == 10:
-                new[random.randint(0, triangle_number - 1)][pick] = random.randint(0, size[0])
+                new[random.randint(0, polygon_number - 1)][pick] = random.randint(0, size[0])
             else:
-                new[random.randint(0, triangle_number - 1)][pick] = random.randint(0, size[1])
+                new[random.randint(0, polygon_number - 1)][pick] = random.randint(0, size[1])
         elif degree == 'soft':
             new = copy.deepcopy(chromosome)
             pick = random.randint(0, 11)
             if pick == 0 or pick == 1 or pick == 2 or pick == 3:
-                new[random.randint(0, triangle_number - 1)][pick] += random.randint(0,25)
-                if new[random.randint(0, triangle_number - 1)][pick] > 255:
-                    new[random.randint(0, triangle_number - 1)][pick] = 255
-                elif new[random.randint(0, triangle_number - 1)][pick] < 0:
-                    new[random.randint(0, triangle_number - 1)][pick] = 0
+                new[random.randint(0, polygon_number - 1)][pick] += random.randint(0, 25)
+                if new[random.randint(0, polygon_number - 1)][pick] > 255:
+                    new[random.randint(0, polygon_number - 1)][pick] = 255
+                elif new[random.randint(0, polygon_number - 1)][pick] < 0:
+                    new[random.randint(0, polygon_number - 1)][pick] = 0
             elif pick == 4 or pick == 6 or pick == 8 or pick == 10:
-                new[random.randint(0, triangle_number - 1)][pick] += int(random.randint(0, size[0])*0.1)
-                if new[random.randint(0, triangle_number - 1)][pick] > size[0]:
-                    new[random.randint(0, triangle_number - 1)][pick] = size[0]
-                elif new[random.randint(0, triangle_number - 1)][pick] < 0:
-                    new[random.randint(0, triangle_number - 1)][pick] = 0
+                new[random.randint(0, polygon_number - 1)][pick] += int(random.randint(0, size[0]) * 0.1)
+                if new[random.randint(0, polygon_number - 1)][pick] > size[0]:
+                    new[random.randint(0, polygon_number - 1)][pick] = size[0]
+                elif new[random.randint(0, polygon_number - 1)][pick] < 0:
+                    new[random.randint(0, polygon_number - 1)][pick] = 0
             else:
-                new[random.randint(0, triangle_number - 1)][pick] += int(random.randint(0, size[1])*0.1)
-                if new[random.randint(0, triangle_number - 1)][pick] > size[1]:
-                    new[random.randint(0, triangle_number - 1)][pick] = size[1]
-                elif new[random.randint(0, triangle_number - 1)][pick] < 0:
-                    new[random.randint(0, triangle_number - 1)][pick] = 0
+                new[random.randint(0, polygon_number - 1)][pick] += int(random.randint(0, size[1]) * 0.1)
+                if new[random.randint(0, polygon_number - 1)][pick] > size[1]:
+                    new[random.randint(0, polygon_number - 1)][pick] = size[1]
+                elif new[random.randint(0, polygon_number - 1)][pick] < 0:
+                    new[random.randint(0, polygon_number - 1)][pick] = 0
         return new
     else:
         return chromosome
