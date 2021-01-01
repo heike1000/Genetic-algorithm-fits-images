@@ -11,15 +11,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2cb2f0e-ac31-4115-ab72-e7d0fcc1873c" name="Default Changelist" comment="20210101">
+      <change afterPath="$PROJECT_DIR$/best.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/chromosome/best.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/chromosome/data.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/figure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cache/image/best.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/data.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/best.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/best.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/best.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/previous/1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/previous/1/tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/previous/2/tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stable/picture/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stable/picture/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stable/picture/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stable/picture/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stable/picture/5.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,8 +168,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.draw" />
         <item itemvalue="Python.tools" />
+        <item itemvalue="Python.draw" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609459866509</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="20210101">
+      <created>1609460683873</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609460683873</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,26 +258,26 @@
     </state>
     <state x="-1180" y="274" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1608898409488" />
     <state x="740" y="274" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609408230836" />
-    <state width="1882" height="234" key="GridCell.Tab.0.bottom" timestamp="1609460050035">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="236" key="GridCell.Tab.0.bottom" timestamp="1609502515994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1882" height="234" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609460050035" />
-    <state width="1899" height="234" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609459781263" />
-    <state width="1882" height="234" key="GridCell.Tab.0.center" timestamp="1609460050035">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="236" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502515994" />
+    <state width="1899" height="236" key="GridCell.Tab.0.center" timestamp="1609502515994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1882" height="234" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609460050035" />
-    <state width="1899" height="234" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609459781263" />
-    <state width="1882" height="234" key="GridCell.Tab.0.left" timestamp="1609460050035">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="236" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502515994" />
+    <state width="1899" height="236" key="GridCell.Tab.0.left" timestamp="1609502515994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1882" height="234" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609460050035" />
-    <state width="1899" height="234" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609459781263" />
-    <state width="1882" height="234" key="GridCell.Tab.0.right" timestamp="1609460050035">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1899" height="236" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502515994" />
+    <state width="1899" height="236" key="GridCell.Tab.0.right" timestamp="1609502515994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1882" height="234" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609460050035" />
-    <state width="1899" height="234" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609459781263" />
+    <state width="1899" height="236" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502515994" />
     <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1606482972577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -242,11 +298,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="434" y="154" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609409945331" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609459891580">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609460685866">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609459891580" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609429851968" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609460685866" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609429561402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -255,9 +311,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="515" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608388837418" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608902900160">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1609475650991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608902900160" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609475650991" />
   </component>
 </project>
