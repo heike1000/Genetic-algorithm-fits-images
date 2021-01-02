@@ -6,12 +6,13 @@ from scipy import misc
 import multiprocessing
 import time
 #pip install --index-url https://pypi.tuna.tsinghua.edu.cn/simple XXX
+start = time.time()
 if __name__ == '__main__':
     # 初始化
-    polygon_number = 200#多边形数目
-    size = (341, 351)#图片大小,与figure一致
-    population = 30#种群数量
-    Variation_posibility = 90
+    polygon_number = 250#多边形数目
+    size = (350, 441)#图片大小,与figure一致
+    population = 4#种群数量
+    Variation_posibility = 100
     target = np.array(misc.imread(r"cache/figure.png",
                                   mode="RGB"),
                       dtype=float)#目标图片
@@ -19,7 +20,7 @@ if __name__ == '__main__':
     populations = []
     mode1 = int(input("1读取，0覆写。\n"))
     print("CPU核心数：" + str(multiprocessing.cpu_count()))
-    mode2 = int(input("输入1使用多进程加速，种群数量巨大且CPU核心较多时可选。种群数量大时请关掉电脑上所有无关软件。\n"))
+    mode2 = int(input("输入1使用多进程模式。\n"))
     if mode1 == 1:
         populations = function.Operate(None, 'read','cache/chromosome/data.npy')
     elif mode1 == 0:
@@ -63,15 +64,15 @@ if __name__ == '__main__':
         populations = []
         for d in range(int(population / 2)):
             populations.append(function.Variation(function.Hybridization(father[d][1],
-                                                                   mother[d][1]), polygon_number, 'soft',
+                                                                   mother[d][1]), polygon_number, 'medium',
                                                Variation_posibility, size))  # 百分之x几率变异
             populations.append(function.Variation(function.Hybridization(father[d][1],
-                                                                   mother[d][1]), polygon_number, 'soft',
+                                                                   mother[d][1]), polygon_number, 'medium',
                                                Variation_posibility, size))  # 百分之x几率变异
         # 每20轮备份一次
         if a % 20 == 0:
             print("已备份。")
             function.Operate(populations, 'write','cache/chromosome/data.npy')
             function.Operate(rank[0][1],'write','cache/chromosome/best.npy')
-        print("每轮耗时：" + str(time.time()-head))
+        print("每轮耗时：" + str(time.time()-head) + "s，总共耗时：" + str((time.time()-start)/3600) + "h")
         gc.collect()

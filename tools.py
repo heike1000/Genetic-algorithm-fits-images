@@ -7,8 +7,8 @@ def Reproduction(name,after,size,polygon_number):#name指向的应该是一个�
     for i in range(after):
         new.append(function.Variation(origin,polygon_number,'hard',100,size))
     function.Operate(new, 'write', 'reproduction.npy')
-
-if __name__ == '__main__':
+def Optimize(name,epoch,degree,size,polygon_number):
     pass
-    #Reproduction('best.npy',30,(341, 351),4)
+if __name__ == '__main__':
+    Reproduction('best.npy',60,(341, 351),4)
     

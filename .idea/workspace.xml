@@ -10,7 +10,56 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2cb2f0e-ac31-4115-ab72-e7d0fcc1873c" name="Default Changelist" comment="20210101" />
+    <list default="true" id="f2cb2f0e-ac31-4115-ab72-e7d0fcc1873c" name="Default Changelist" comment="20210101">
+      <change afterPath="$PROJECT_DIR$/stable/chromosome/alien1/data1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/chromosome/alien1/data2.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/chromosome/alien2/data1.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/chromosome/monaLisa_new/data4.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/alien1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/alien2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/best.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/image/best4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/chromosome/best.npy" beforeDir="false" afterPath="$PROJECT_DIR$/cache/chromosome/best.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/chromosome/data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/cache/chromosome/data.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/figure.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/figure.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/best.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stable/chromosome/alien/data1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stable/chromosome/alien/data2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609509080674</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20210101">
+      <created>1609509229301</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609509229301</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,50 +268,50 @@
     </state>
     <state x="-1180" y="274" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1608898409488" />
     <state x="740" y="274" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609408230836" />
-    <state width="1899" height="236" key="GridCell.Tab.0.bottom" timestamp="1609509101503">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="236" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609509101503" />
-    <state width="1899" height="236" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502590752" />
-    <state width="1899" height="236" key="GridCell.Tab.0.center" timestamp="1609509101502">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="236" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609509101502" />
-    <state width="1899" height="236" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502590752" />
-    <state width="1899" height="236" key="GridCell.Tab.0.left" timestamp="1609509101502">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="236" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609509101502" />
-    <state width="1899" height="236" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502590752" />
-    <state width="1899" height="236" key="GridCell.Tab.0.right" timestamp="1609509101503">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="236" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609509101503" />
-    <state width="1899" height="236" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502590752" />
-    <state width="949" height="348" key="GridCell.Tab.1.bottom" timestamp="1606482972577">
+    <state width="1133" height="235" key="GridCell.Tab.0.bottom" timestamp="1609580484827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606482972577" />
-    <state width="949" height="348" key="GridCell.Tab.1.center" timestamp="1606482972576">
+    <state width="1899" height="236" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609556459079" />
+    <state width="1133" height="235" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609580484827" />
+    <state width="1133" height="235" key="GridCell.Tab.0.center" timestamp="1609580484827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606482972576" />
-    <state width="949" height="348" key="GridCell.Tab.1.left" timestamp="1606482972576">
+    <state width="1899" height="236" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609556459079" />
+    <state width="1133" height="235" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609580484827" />
+    <state width="1133" height="235" key="GridCell.Tab.0.left" timestamp="1609580484827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606482972576" />
-    <state width="949" height="348" key="GridCell.Tab.1.right" timestamp="1606482972576">
+    <state width="1899" height="236" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609556459079" />
+    <state width="1133" height="235" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609580484827" />
+    <state width="1133" height="235" key="GridCell.Tab.0.right" timestamp="1609580484827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606482972576" />
+    <state width="1899" height="236" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609556459079" />
+    <state width="1133" height="235" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609580484827" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1609560741446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609560741446" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1609560741446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609560741446" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1609560741446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609560741446" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1609560741446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609560741446" />
     <state x="434" y="154" key="SettingsEditor" timestamp="1609409945331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="434" y="154" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609409945331" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609509083095">
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609509234171">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609509083095" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1609509234171" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609502579421" />
     <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609429561402">
       <screen x="0" y="0" width="1920" height="1040" />
