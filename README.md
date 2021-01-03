@@ -1,5 +1,5 @@
 # Genetic-algorithm-fits-images
-Use genetic algorithm to fit images.
+Use genetic algorithm to fit images.\n
 推荐初始参数：
 polygon_number = 100#多边形数目。该值越大拟合能力越强，运算速度越慢。
 size = (X, X)#图片大小,与figure.png一致
