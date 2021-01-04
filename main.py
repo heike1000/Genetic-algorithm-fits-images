@@ -15,7 +15,8 @@ if __name__ == '__main__':
     population = 6  # 种群数量。该值越大拟合能力越强，运算速度越慢。
     Variation_posibility = 100  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
     policy = 'random'  # 初始化策略
-    degree = 'medium'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
+    times = 1
+    degree = 'soft'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
     force = 0  # 强制进化选项。前期建议设为0，相似度较高时改为1。
     target = np.array(misc.imread(r"cache/figure.png",
                                   mode="RGB"),
@@ -70,18 +71,18 @@ if __name__ == '__main__':
             populations.append(father[0][1])
             populations.append(
                 function.Variation(function.Hybridization(father[0][1], mother[0][1]), polygon_number, degree,
-                                   Variation_posibility, size))
+                                   Variation_posibility, size ,times))
             for d in range(int(population / 2) - 1):
                 for e in range(2):
                     populations.append(
                         function.Variation(function.Hybridization(father[d + 1][1],mother[d + 1][1]), polygon_number,degree,
-                                    Variation_posibility, size))  # 百分之x几率变异
+                                    Variation_posibility, size , times))  # 百分之x几率变异
         elif force == 0:
             for d in range(int(population / 2)):
                 for e in range(2):
                     populations.append(function.Variation(function.Hybridization(father[d][1],
                                                                                  mother[d][1]), polygon_number, degree,
-                                                          Variation_posibility, size))  # 百分之x几率变异
+                                                          Variation_posibility, size, times))  # 百分之x几率变异
         # 每20轮备份一次
         if a % 20 == 0:
             print("已备份。")
