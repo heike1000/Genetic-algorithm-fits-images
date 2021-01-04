@@ -4,14 +4,12 @@ import random
 import warnings
 import copy
 import cv2
-
 warnings.filterwarnings('ignore')
-polygon_number = 100
 
 
 # 生成染色体
 def Generate_chromosome(plygon_number, size, method):
-    # R G B ALPHA X0 Y0 X1 Y1(当前使用线)
+    # R G B ALPHA X0 Y0 X1 Y1 X2 Y2 X3 Y3(当前使用四边形)
     chromosome = []
     if method == 'random':
         for a in range(plygon_number):
@@ -21,6 +19,7 @@ def Generate_chromosome(plygon_number, size, method):
             for c in range(4):
                 DNA.append(random.randint(0, size[0]))
                 DNA.append(random.randint(0, size[1]))
+            chromosome.append(DNA)
         return chromosome
     elif method == 'mean':
         for a in range(plygon_number):
@@ -52,9 +51,6 @@ def Generate_image(chromosome, name, size):
                                    chromosome[i][3]))
         img = Image.alpha_composite(img, img_polygon)
     img.save(r'cache/image/%s.png' % name)
-    oil = cv2.imread(r'cache/image/%s.png' % name)
-    res = cv2.xphoto.oilPainting(oil, 10, 10)
-    cv2.imwrite(r'cache/image/%s.png' % name, res)
 
 
 # 变异
