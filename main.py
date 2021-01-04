@@ -16,7 +16,7 @@ if __name__ == '__main__':
     Variation_posibility = 100  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
     policy = 'random'  # 初始化策略
     degree = 'medium'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
-    force = 0  # 强制进化选项。
+    force = 0  # 强制进化选项。前期建议设为0，相似度较高时改为1。
     target = np.array(misc.imread(r"cache/figure.png",
                                   mode="RGB"),
                       dtype=float)  # 目标图片
