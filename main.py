@@ -6,7 +6,7 @@ from scipy import misc
 import multiprocessing
 import time
 
-# token：a9e9c04f304a626c98c051e763c45a707cf95833
+# token：004bd549ae80445dc01adbc537d19ba7efdd86e2
 # pip install --index-url https://pypi.tuna.tsinghua.edu.cn/simple XXX
 start = time.time()
 if __name__ == '__main__':
