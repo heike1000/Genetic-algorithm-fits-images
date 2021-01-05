@@ -6,17 +6,18 @@ from scipy import misc
 import multiprocessing
 import time
 
+# token：a9e9c04f304a626c98c051e763c45a707cf95833
 # pip install --index-url https://pypi.tuna.tsinghua.edu.cn/simple XXX
 start = time.time()
 if __name__ == '__main__':
     # 初始化
     polygon_number = 200  # 多边形数目。该值越大拟合能力越强，运算速度越慢。
     size = (300, 400)  # 图片大小,与figure.png一致
-    population = 6  # 种群数量。该值越大拟合能力越强，运算速度越慢。
-    Variation_posibility = 60  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
-    policy = 'random'  # 初始化策略
-    times = 1
-    degree = 'soft'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
+    population = 16  # 种群数量。该值越大拟合能力越强，运算速度越慢。
+    Variation_posibility = 80  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
+    policy = 'random'  # 初始化策略。
+    times = 1 #变异次数，建议设为1。
+    degree = 'medium'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
     force = 0  # 强制进化选项。前期建议设为0，相似度较高时改为1。
     target = np.array(misc.imread(r"cache/figure.png",
                                   mode="RGBA"),
@@ -67,7 +68,7 @@ if __name__ == '__main__':
         random.shuffle(mother)
         populations = []
         if force == 1:
-            # 最优秀个体直接进入下一轮，并将变异一次的自身也放入下一轮
+            # 最优秀个体直接进入下一轮，并将杂交变异一次的最优秀个体也放入下一轮。
             populations.append(father[0][1])
             populations.append(
                 function.Variation(function.Hybridization(father[0][1], mother[0][1]), polygon_number, degree,

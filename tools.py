@@ -8,8 +8,8 @@ def Reproduction(name, after, size, polygon_number):  # name指向的应该是�
     origin = function.Operate(None, 'read', name)
     new = []
     for i in range(after):
-        new.append(function.Variation(origin, polygon_number, 'hard', 100, size))
-    function.Operate(new, 'write', 'reproduction.npy')
+        new.append(function.Variation(origin, polygon_number, 'hard', 100, size ,1))
+    function.Operate(new, 'write', 'data.npy')
 
 
 def Optimize(name, epoch, degree, size, polygon_number, chance, Variation_number):
@@ -18,7 +18,7 @@ def Optimize(name, epoch, degree, size, polygon_number, chance, Variation_number
     target = np.array(misc.imread(r"cache/figure.png", mode="RGB"), dtype=float)  # 目标图片
     for i in range(epoch):
         origin_score = function.Fitness(target, np.array(misc.imread(r"origin.png", mode="RGB"), dtype=float), size)
-        competitor = function.Variation(origin, polygon_number, degree, chance, size, Variation_number)
+        competitor = function.Variation(origin, polygon_number, degree, chance, size, Variation_number, 1)
         function.Generate_image(competitor, 'competitor', size)
         competitor_score = function.Fitness(target, np.array(misc.imread(r"competitor.png", mode="RGB"), dtype=float),
                                             size)
@@ -29,4 +29,4 @@ def Optimize(name, epoch, degree, size, polygon_number, chance, Variation_number
 
 
 if __name__ == '__main__':
-    Reproduction('best.npy', 20, (350, 441), 4)
+    Reproduction('best.npy', 16, (300, 400), 4)

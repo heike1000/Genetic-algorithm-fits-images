@@ -8,6 +8,7 @@ Variation_posibility = 100#变异几率。该值越大搜索能力越强，相�
 policy = 'mean'#初始化策略。  
 degree = 'hard'#变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。  
 force = 0  # 强制进化选项。前期建议设为0，相似度较高时改为1。  
+times = 1 #变异次数，建议设为1。  
 
 用法：  
 将figure.png改为要拟合的图像，size改为该图像尺寸即可开始运行。运行过程中程序会自动存档，若要接之前的种群继续运行请在开始时按照提示输入按1。  
