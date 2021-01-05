@@ -13,13 +13,13 @@ if __name__ == '__main__':
     polygon_number = 200  # 多边形数目。该值越大拟合能力越强，运算速度越慢。
     size = (300, 400)  # 图片大小,与figure.png一致
     population = 6  # 种群数量。该值越大拟合能力越强，运算速度越慢。
-    Variation_posibility = 100  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
+    Variation_posibility = 60  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
     policy = 'random'  # 初始化策略
     times = 1
     degree = 'soft'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
     force = 0  # 强制进化选项。前期建议设为0，相似度较高时改为1。
     target = np.array(misc.imread(r"cache/figure.png",
-                                  mode="RGB"),
+                                  mode="RGBA"),
                       dtype=float)  # 目标图片
     # 读取或重写初始种群
     populations = []
@@ -51,7 +51,7 @@ if __name__ == '__main__':
             populations_fitnesses.append(
                 function.Fitness(target,
                                  np.array(misc.imread(r"cache/image/%s.png" % (c),
-                                                      mode="RGB"),
+                                                      mode="RGBA"),
                                           dtype=float), size))
         print("图形相似度最大值/平均值/最小值：" + str(max(populations_fitnesses) * 100) + "%，" +
               str((sum(populations_fitnesses) / len(populations_fitnesses)) * 100) + "%，" +
@@ -71,12 +71,13 @@ if __name__ == '__main__':
             populations.append(father[0][1])
             populations.append(
                 function.Variation(function.Hybridization(father[0][1], mother[0][1]), polygon_number, degree,
-                                   Variation_posibility, size ,times))
+                                   Variation_posibility, size, times))
             for d in range(int(population / 2) - 1):
                 for e in range(2):
                     populations.append(
-                        function.Variation(function.Hybridization(father[d + 1][1],mother[d + 1][1]), polygon_number,degree,
-                                    Variation_posibility, size , times))  # 百分之x几率变异
+                        function.Variation(function.Hybridization(father[d + 1][1], mother[d + 1][1]), polygon_number,
+                                           degree,
+                                           Variation_posibility, size, times))  # 百分之x几率变异
         elif force == 0:
             for d in range(int(population / 2)):
                 for e in range(2):

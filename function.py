@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw
 import random
 import warnings
 import copy
-import cv2
+
 warnings.filterwarnings('ignore')
 
 
@@ -113,7 +113,7 @@ def Fitness(target, image, size):
 # 文件读，写
 def Operate(data, method, name):
     if method == 'read':
-        raw = np.load(name, allow_pickle=True)
+        raw = np.load(name)
         return raw.tolist()
     elif method == 'write':
         writefile = np.array(data)
