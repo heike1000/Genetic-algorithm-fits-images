@@ -1,8 +1,8 @@
+import copy
 import numpy as np
-from PIL import Image, ImageDraw
 import random
 import warnings
-import copy
+from PIL import Image, ImageDraw
 
 warnings.filterwarnings('ignore')
 
