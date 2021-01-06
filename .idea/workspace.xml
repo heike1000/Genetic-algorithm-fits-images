@@ -165,8 +165,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.draw" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.tools" />
     </list>
     <recent_temporary>
