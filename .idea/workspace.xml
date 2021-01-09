@@ -14,7 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2cb2f0e-ac31-4115-ab72-e7d0fcc1873c" name="Default Changelist" comment="20210106">
+      <change afterPath="$PROJECT_DIR$/stable/chromosome/sunflower/data5.npy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stable/chromosome/sunflower/data6.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/chromosome/best.npy" beforeDir="false" afterPath="$PROJECT_DIR$/cache/chromosome/best.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/chromosome/data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/cache/chromosome/data.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/image/best.png" beforeDir="false" afterPath="$PROJECT_DIR$/cache/image/best.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609913292500</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="20210106">
+      <created>1609943609099</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609943609099</updated>
+    </task>
+    <task id="LOCAL-00020" summary="20210106">
+      <created>1609943801649</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609943801649</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,11 +342,5 @@
     <MESSAGE value="20210105" />
     <MESSAGE value="20210106" />
     <option name="LAST_COMMIT_MESSAGE" value="20210106" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609913297959">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609913297959" />
   </component>
 </project>
