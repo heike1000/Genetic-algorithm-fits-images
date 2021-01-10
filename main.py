@@ -12,12 +12,12 @@ start = time.time()
 if __name__ == '__main__':
     # 初始化
     polygon_number = 200  # 多边形数目。该值越大拟合能力越强，运算速度越慢。
-    size = (300, 400)  # 图片大小,与figure.png一致
-    population = 4  # 种群数量。该值越大拟合能力越强，运算速度越慢。
-    Variation_posibility = 80  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
+    size = (300, 360)  # 图片大小,与figure.png一致
+    population = 6  # 种群数量。该值越大拟合能力越强，运算速度越慢。
+    Variation_posibility = 100  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
     policy = 'random'  # 初始化策略。
     times = 1  # 变异次数，建议设为1。
-    degree = 'soft'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
+    degree = 'medium'  # 变异强度。hard：一次改变polygon的所有参数，medium：一次改变一个polygon的一个参数，soft：一次以较小范围改变一个polygon的一个参数。
     force = 1  # 强制进化选项。前期建议设为0，相似度较高时改为1。
     target = np.array(misc.imread(r"cache/figure.png",
                                   mode="RGBA"),
