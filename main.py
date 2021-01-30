@@ -53,7 +53,7 @@ if __name__ == '__main__':
                 function.Fitness(target,
                                  np.array(misc.imread(r"cache/image/%s.png" % (c),
                                                       mode="RGBA"),
-                                          dtype=float), size))
+                                          dtype=float), size))  
         print("图形相似度最大值/平均值/最小值：" + str(max(populations_fitnesses) * 100) + "%，" +
               str((sum(populations_fitnesses) / len(populations_fitnesses)) * 100) + "%，" +
               str(min(populations_fitnesses) * 100) + "%。")
