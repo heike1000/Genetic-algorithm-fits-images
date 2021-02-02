@@ -11,7 +11,7 @@ def Reproduction(name, after, size, polygon_number):  # name指向的应该是�
         new.append(function.Variation(origin, polygon_number, 'hard', 100, size ,1))
     function.Operate(new, 'write', 'data.npy')
 
-
+# 定向优化
 def Optimize(name, epoch, degree, size, polygon_number, chance, Variation_number):
     origin = function.Operate(None, 'read', name)
     function.Generate_image(origin, 'origin', size)

@@ -12,7 +12,7 @@ start = time.time()
 if __name__ == '__main__':
     # 初始化
     polygon_number = 200  # 多边形数目。该值越大拟合能力越强，运算速度越慢。
-    size = (300, 360)  # 图片大小,与figure.png一致
+    size = (300, 246)  # 图片大小,与figure.png一致
     population = 6  # 种群数量。该值越大拟合能力越强，运算速度越慢。
     Variation_posibility = 100  # 变异几率。该值越大搜索能力越强，相似度上升越慢。
     policy = 'random'  # 初始化策略。
